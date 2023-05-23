@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <main class="container" id="container">
+    <nav id="navBar">
+      <div class="left-nav">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo du site">
+        </div>
+      </div>
+      <div class="right-nav">
+        <div class="wrapper">
+          <ul class="main-list">
+            <li id="featLi">Features <img src="./images/icon-arrow-down.svg" alt="arrow down" id="featArrow">
+              <ul class="sub-list feat-list">
+                <li><img src="./images/icon-todo.svg" alt="todo list icon">Todo List</li>
+                <li><img src="./images/icon-calendar.svg" alt="calendar icon">Calendar</li>
+                <li><img src="./images/icon-reminders.svg" alt="reminders icon">Reminders</li>
+                <li><img src="./images/icon-planning.svg" alt="planning icon">Planning</li>
+              </ul>
+            </li>
+            <li id="companyLi">Company <img src="./images/icon-arrow-down.svg" alt="arrow down" id="compArrow">
+              <ul class="sub-list company-list">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li class="hover">Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <div class="log">
+          <span>Login</span>
+          <button class="btn-nav">Register</button>
+        </div>
+      </div>
+      <button class="hamburger">
+        <div class="bars-container">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </button>
+    </nav>
+    <section class="section">
+      <div class="left-part">
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button class="btn-section">Learn more</button>
+        <div class="clients">
+          <div class="databiz">
+            <img src="./images/client-databiz.svg" alt="databiz logo">
+          </div>
+          <div class="audiophile">
+            <img src="./images/client-audiophile.svg" alt="audiophile logo">
+          </div>
+          <div class="meet">
+            <img src="./images/client-meet.svg" alt="meet logo">
+          </div>
+          <div class="maker">
+            <img src="./images/client-maker.svg" alt="maker logo">
+          </div>
+        </div>
+      </div>
+      <div class="right-part"></div>
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
